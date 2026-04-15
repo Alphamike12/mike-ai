@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike AI - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .dashboard-container {
+            display: flex;
+            height: 100vh;
+        }
+        
+        .dashboard-sidebar {
+            width: 250px;
+            background: #f8f9fa;
+            padding: 20px;
+            border-right: 1px solid #dee2e6;
+        }
+        
+        .dashboard-main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .dashboard-header {
+            background: white;
+            padding: 20px;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            justify-content: between;
+            align-items: center;
+        }
+        
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .user-details h3 {
+            margin: 0;
+            color: #333;
+            font-size: 16px;
+        }
+        
+        .user-details p {
+            margin: 0;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .stat-card h3 {
+            margin: 0 0 10px 0;
+            color: #667eea;
+            font-size: 24px;
+        }
+        
+        .stat-card p {
+            margin: 0;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .recent-conversations {
+            padding: 20px;
+        }
+        
+        .conversation-list {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .conversation-item {
+            padding: 15px 20px;
+            border-bottom: 1px solid #f0f0f0;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .conversation-item:hover {
+            background: #f8f9fa;
+        }
+        
+        .conversation-item:last-child {
+            border-bottom: none;
+        }
+        
+        .conversation-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .conversation-preview {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        .conversation-date {
+            color: #999;
+            font-size: 12px;
+        }
+        
+        .sidebar-nav {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        
+        .sidebar-nav li {
+            margin-bottom: 10px;
+        }
+        
+        .sidebar-nav a {
+            display: block;
+            padding: 10px 15px;
+            color: #666;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        
+        .sidebar-nav a:hover {
+            background: #e9ecef;
+            color: #667eea;
+        }
+        
+        .sidebar-nav a.active {
+            background: #667eea;
+            color: white;
+        }
+        
+        .logout-btn {
+            background: #dc3545;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+        
+        .logout-btn:hover {
+            background: #c82333;
+        }
+        
+        .subscription-badge {
+            background: #28a745;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .subscription-badge.premium {
+            background: #ffc107;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-sidebar">
+            <div class="user-info">
+                <div class="user-avatar" id="user-avatar">JD</div>
+                <div class="user-details">
+                    <h3 id="user-name">John Doe</h3>
+                    <p id="user-email">john@example.com</p>
+                    <span class="subscription-badge" id="subscription-badge">Free</span>
+                </div>
+            </div>
+            
+            <ul class="sidebar-nav">
+                <li><a href="#dashboard" class="active">Dashboard</a></li>
+                <li><a href="#chat">Chat</a></li>
+                <li><a href="#conversations">Conversations</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#settings">Settings</a></li>
+                <li><a href="#upgrade">Upgrade Plan</a></li>
+            </ul>
+            
+            <button class="logout-btn" onclick="logout()">Logout</button>
+        </div>
+        
+        <div class="dashboard-main">
+            <div class="dashboard-header">
+                <h1>Mike AI Dashboard</h1>
+                <div id="last-login">Last login: Loading...</div>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3 id="total-conversations">0</h3>
+                    <p>Total Conversations</p>
+                </div>
+                <div class="stat-card">
+                    <h3 id="total-messages">0</h3>
+                    <p>Total Messages</p>
+                </div>
+                <div class="stat-card">
+                    <h3 id="active-days">0</h3>
+                    <p>Active Days</p>
+                </div>
+                <div class="stat-card">
+                    <h3 id="favorite-topics">0</h3>
+                    <p>Favorite Topics</p>
+                </div>
+            </div>
+            
+            <div class="recent-conversations">
+                <h2>Recent Conversations</h2>
+                <div class="conversation-list" id="conversation-list">
+                    <div class="conversation-item">
+                        <div class="conversation-title">Loading conversations...</div>
+                        <div class="conversation-date">Please wait...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Check if user is logged in
+        const token = localStorage.getItem('mike-ai-token');
+        const user = JSON.parse(localStorage.getItem('mike-ai-user') || '{}');
+        
+        if (!token) {
+            window.location.href = 'login.html';
+        }
+        
+        // Load user data
+        function loadUserData() {
+            document.getElementById('user-name').textContent = `${user.firstName} ${user.lastName}`;
+            document.getElementById('user-email').textContent = user.email;
+            
+            // Update avatar initials
+            const initials = `${user.firstName[0]}${user.lastName[0]}`.toUpperCase();
+            document.getElementById('user-avatar').textContent = initials;
+            
+            // Update subscription badge
+            const badge = document.getElementById('subscription-badge');
+            badge.textContent = user.subscription.charAt(0).toUpperCase() + user.subscription.slice(1);
+            if (user.subscription === 'premium') {
+                badge.classList.add('premium');
+            }
+            
+            // Load user stats
+            loadUserStats();
+            
+            // Load recent conversations
+            loadRecentConversations();
+        }
+        
+        // Load user statistics
+        async function loadUserStats() {
+            try {
+                const response = await fetch('/api/user/stats', {
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    }
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    document.getElementById('total-conversations').textContent = data.stats.totalConversations;
+                    document.getElementById('total-messages').textContent = data.stats.totalMessages;
+                    document.getElementById('active-days').textContent = data.stats.activeDays;
+                    document.getElementById('favorite-topics').textContent = data.stats.favoriteTopics.length;
+                }
+            } catch (error) {
+                console.error('Error loading stats:', error);
+            }
+        }
+        
+        // Load recent conversations
+        async function loadRecentConversations() {
+            try {
+                const response = await fetch('/api/user/conversations', {
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    }
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    const conversationList = document.getElementById('conversation-list');
+                    conversationList.innerHTML = '';
+                    
+                    if (data.conversations.length === 0) {
+                        conversationList.innerHTML = `
+                            <div class="conversation-item">
+                                <div class="conversation-title">No conversations yet</div>
+                                <div class="conversation-date">Start chatting with Mike AI!</div>
+                            </div>
+                        `;
+                    } else {
+                        data.conversations.forEach(conv => {
+                            const date = new Date(conv.updatedAt);
+                            const dateStr = date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
+                            
+                            const item = document.createElement('div');
+                            item.className = 'conversation-item';
+                            item.innerHTML = `
+                                <div class="conversation-title">${conv.title || 'Untitled Conversation'}</div>
+                                <div class="conversation-preview">${conv.preview || 'No preview available'}</div>
+                                <div class="conversation-date">${dateStr}</div>
+                            `;
+                            
+                            item.addEventListener('click', () => {
+                                window.location.href = `index.html?conversation=${conv.id}`;
+                            });
+                            
+                            conversationList.appendChild(item);
+                        });
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading conversations:', error);
+            }
+        }
+        
+        // Logout function
+        function logout() {
+            localStorage.removeItem('mike-ai-token');
+            localStorage.removeItem('mike-ai-user');
+            window.location.href = 'login.html';
+        }
+        
+        // Navigation
+        document.querySelectorAll('.sidebar-nav a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                // Remove active class from all links
+                document.querySelectorAll('.sidebar-nav a').forEach(l => l.classList.remove('active'));
+                
+                // Add active class to clicked link
+                e.target.classList.add('active');
+                
+                // Handle navigation
+                const href = e.target.getAttribute('href');
+                if (href === '#chat') {
+                    window.location.href = 'index.html';
+                } else if (href === '#profile') {
+                    window.location.href = 'profile.html';
+                } else if (href === '#upgrade') {
+                    window.location.href = 'upgrade.html';
+                }
+            });
+        });
+        
+        // Initialize
+        loadUserData();
+    </script>
+</body>
+</html>

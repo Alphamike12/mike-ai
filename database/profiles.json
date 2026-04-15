@@ -1,0 +1,55 @@
+{
+  "profiles": [
+    {
+      "userId": "1774538615704",
+      "avatar": null,
+      "bio": "",
+      "preferences": {
+        "theme": "light",
+        "language": "english",
+        "defaultModel": "gemma3:270m"
+      },
+      "stats": {
+        "totalConversations": 37,
+        "totalMessages": 74,
+        "favoriteTopics": [],
+        "activeDays": 0,
+        "joinDate": "2026-03-26T15:23:35.708Z"
+      }
+    },
+    {
+      "userId": "1774547643612",
+      "avatar": null,
+      "bio": "",
+      "preferences": {
+        "theme": "light",
+        "language": "english",
+        "defaultModel": "gemma3:270m"
+      },
+      "stats": {
+        "totalConversations": 0,
+        "totalMessages": 0,
+        "favoriteTopics": [],
+        "activeDays": 0,
+        "joinDate": "2026-03-26T17:54:03.613Z"
+      }
+    },
+    {
+      "userId": "1774600401836",
+      "avatar": null,
+      "bio": "",
+      "preferences": {
+        "theme": "light",
+        "language": "english",
+        "defaultModel": "gemma3:270m"
+      },
+      "stats": {
+        "totalConversations": 0,
+        "totalMessages": 0,
+        "favoriteTopics": [],
+        "activeDays": 0,
+        "joinDate": "2026-03-27T08:33:21.837Z"
+      }
+    }
+  ]
+}

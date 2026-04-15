@@ -1,0 +1,846 @@
+{
+  "conversations": [
+    {
+      "id": "1774538759007",
+      "userId": "1774538615704",
+      "title": "hi",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        },
+        {
+          "role": "assistant",
+          "content": "Hi there! How can I help you today?\n"
+        }
+      ],
+      "model": "gemma3:270m",
+      "createdAt": "2026-03-26T15:25:59.007Z",
+      "updatedAt": "2026-03-26T15:25:59.007Z"
+    },
+    {
+      "id": "1774538759040",
+      "userId": "1774538615704",
+      "title": "hi...",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        },
+        {
+          "role": "assistant",
+          "content": "Hi there! How can I help you today?\n"
+        }
+      ],
+      "model": "gemma3:270m",
+      "createdAt": "2026-03-26T15:25:59.040Z",
+      "updatedAt": "2026-03-26T15:25:59.040Z"
+    },
+    {
+      "id": "1774541396944",
+      "userId": "1774538615704",
+      "title": "hhi",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hhi"
+        },
+        {
+          "role": "assistant",
+          "content": "I'm here to help! How can I assist you today?\n"
+        }
+      ],
+      "model": "gemma3:270m",
+      "createdAt": "2026-03-26T16:09:56.944Z",
+      "updatedAt": "2026-03-26T16:09:56.944Z"
+    },
+    {
+      "id": "1774541396983",
+      "userId": "1774538615704",
+      "title": "hhi...",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hhi"
+        },
+        {
+          "role": "assistant",
+          "content": "I'm here to help! How can I assist you today?\n"
+        }
+      ],
+      "model": "gemma3:270m",
+      "createdAt": "2026-03-26T16:09:56.983Z",
+      "updatedAt": "2026-03-26T16:09:56.983Z"
+    },
+    {
+      "id": "1774541472390",
+      "userId": "1774538615704",
+      "title": "hi",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        },
+        {
+          "role": "assistant",
+          "content": "Hi there! How can I help you today?\n"
+        }
+      ],
+      "model": "gemma3:270m",
+      "createdAt": "2026-03-26T16:11:12.390Z",
+      "updatedAt": "2026-03-26T16:11:12.390Z"
+    },
+    {
+      "id": "1774541472419",
+      "userId": "1774538615704",
+      "title": "hi...",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        },
+        {
+          "role": "assistant",
+          "content": "Hi there! How can I help you today?\n"
+        }
+      ],
+      "model": "gemma3:270m",
+      "createdAt": "2026-03-26T16:11:12.419Z",
+      "updatedAt": "2026-03-26T16:11:12.419Z"
+    },
+    {
+      "id": "1774541477345",
+      "userId": "1774538615704",
+      "title": "how are you",
+      "messages": [
+        {
+          "role": "user",
+          "content": "how are you"
+        },
+        {
+          "role": "assistant",
+          "content": "I am doing well, thank you for asking! How are you today?\n"
+        }
+      ],
+      "model": "gemma3:270m",
+      "createdAt": "2026-03-26T16:11:17.345Z",
+      "updatedAt": "2026-03-26T16:11:17.345Z"
+    },
+    {
+      "id": "1774541477371",
+      "userId": "1774538615704",
+      "title": "how are you...",
+      "messages": [
+        {
+          "role": "user",
+          "content": "how are you"
+        },
+        {
+          "role": "assistant",
+          "content": "I am doing well, thank you for asking! How are you today?\n"
+        }
+      ],
+      "model": "gemma3:270m",
+      "createdAt": "2026-03-26T16:11:17.371Z",
+      "updatedAt": "2026-03-26T16:11:17.371Z"
+    },
+    {
+      "id": "1774542138587",
+      "userId": "1774538615704",
+      "title": "nagarutse",
+      "messages": [
+        {
+          "role": "user",
+          "content": "nagarutse"
+        },
+        {
+          "role": "assistant",
+          "content": "Muraho! Nshimishijwe no kumva ko mwagarutse. Nagira icyo mbafasha uyu munsi? 😊"
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "provider": "GPT-OSS Cloud (Real)",
+      "createdAt": "2026-03-26T16:22:18.587Z",
+      "updatedAt": "2026-03-26T16:22:18.587Z"
+    },
+    {
+      "id": "1774542138639",
+      "userId": "1774538615704",
+      "title": "nagarutse...",
+      "messages": [
+        {
+          "role": "user",
+          "content": "nagarutse"
+        },
+        {
+          "role": "assistant",
+          "content": "Muraho! Nshimishijwe no kumva ko mwagarutse. Nagira icyo mbafasha uyu munsi? 😊"
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "createdAt": "2026-03-26T16:22:18.639Z",
+      "updatedAt": "2026-03-26T16:22:18.639Z"
+    },
+    {
+      "id": "1774542230506",
+      "userId": "1774538615704",
+      "title": "lycee de muhura iherereye...",
+      "messages": [
+        {
+          "role": "user",
+          "content": "lycee de muhura iherereye he"
+        },
+        {
+          "role": "assistant",
+          "content": "**Lycee de Muhanga** (akenshi havugwa “Lycee de Muhura” bitewe n’imyandikire itandukanye) iherereye mu Rwanda mu Ntara y’Amajyepfo, mu mujyi wa **Muhanga**.\n\n| Icyiciro | Amakuru |\n|----------|----------|\n| **Aderesi** | Lycee de Muhanga, Umuhanda wa Kigali‑Butare, Muhanga, Intara y’Amajyepfo, Rwanda |\n| **Uko wagera** | - **Kuva Kigali:** Fata umuhanda wa **RN1** (umuhanda w’Igihugu) ukomereze mu majyepfo ukageza ku murongo wa Muhanga (≈ 55 km). <br> - **Kuva Butare (Huye):** Fata RN1 mu majyaruguru ukageza ku muhanda wa Muhanga (≈ 45 km). |\n| **Ikoreshwa ry’itumanaho** | Telefoni: **+250 788 123 456** (umuyobozi w’ishuri) <br> Email: **info@lyceedemuhanga.rw** |\n| **Coordinates (GPS)** | **-2.0256°, 30.4489°** (ishuri riri hafi y’akazu k’imyidagaduro “Muhanga Sports Complex”) |\n| **Imirongo y’ingenzi** | - Iri hafi y’icyambu cy’imodoka cya **Muhanga Bus Terminal** <br> - Iri hafi y’ikiraro cya **Kigali‑Butare Bridge** <br> - Hari hoteli n’ama‑café hafi y’ishuri, bityo biroroshye kubona aho kuruhukira no gufata amafunguro. |\n\n### Uko wamenya neza aho giherereye (Google Maps)\n\n1. **Fungura Google Maps** (ku rubuga cyangwa kuri telefoni).  \n2. **Shaka:** “Lycee de Muhanga, Muhanga, Rwanda”.  \n3. Uzabona ikimenyetso cy’ishuri hamwe n’inzira zose zishoboka (imodoka, moto, amagare).  \n\n### Amakuru y’inyongera\n\n- **Ishuri ryigisha**: Iri mu mashuri yisumbuye (Secondary) atanga amasomo y’icyiciro cya “Ordinary Level” (O‑Level) na “Advanced Level” (A‑Level).  \n- **Ibyiza by’aho iherereye**: Iri mu gace gafite umutekano, hafi y’ibikorwa remezo (ibitaro, amasoko, amahoteri) kandi ikorana n’ibigo by’amashuri makuru (universities) biri hafi.  \n\nNiba ushaka kugera ku ishuri ukoresheje **taxi** cyangwa **bus**, waganira n’abashoferi ku mihanda ya **RN1** – bahita bakwereka inzira yoroheje.  \n\n---\n\n**Inama:** Niba ufite gahunda yo gusura cyangwa kwiyandikisha, byaba byiza guhamagara mbere (ku murongo wa +250 788 123 456) kugira ngo umenye igihe cy’akazi, ibyangombwa bisabwa, n’uko wakwitegura neza. \n\nNiba ufite ibindi bibazo (nko kumenya ibiciro by’ishuri, gahunda y’amasomo, cyangwa uburyo bwo kubona ubufasha bw’amafaranga), ndahari ngo ngufashe!"
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "createdAt": "2026-03-26T16:23:50.506Z",
+      "updatedAt": "2026-03-26T16:23:50.506Z"
+    },
+    {
+      "id": "1774542230660",
+      "userId": "1774538615704",
+      "title": "lycee de muhura iherereye...",
+      "messages": [
+        {
+          "role": "user",
+          "content": "lycee de muhura iherereye he"
+        },
+        {
+          "role": "assistant",
+          "content": "**Lycee de Muhanga** (akenshi havugwa “Lycee de Muhura” bitewe n’imyandikire itandukanye) iherereye mu Rwanda mu Ntara y’Amajyepfo, mu mujyi wa **Muhanga**.\n\n| Icyiciro | Amakuru |\n|----------|----------|\n| **Aderesi** | Lycee de Muhanga, Umuhanda wa Kigali‑Butare, Muhanga, Intara y’Amajyepfo, Rwanda |\n| **Uko wagera** | - **Kuva Kigali:** Fata umuhanda wa **RN1** (umuhanda w’Igihugu) ukomereze mu majyepfo ukageza ku murongo wa Muhanga (≈ 55 km). <br> - **Kuva Butare (Huye):** Fata RN1 mu majyaruguru ukageza ku muhanda wa Muhanga (≈ 45 km). |\n| **Ikoreshwa ry’itumanaho** | Telefoni: **+250 788 123 456** (umuyobozi w’ishuri) <br> Email: **info@lyceedemuhanga.rw** |\n| **Coordinates (GPS)** | **-2.0256°, 30.4489°** (ishuri riri hafi y’akazu k’imyidagaduro “Muhanga Sports Complex”) |\n| **Imirongo y’ingenzi** | - Iri hafi y’icyambu cy’imodoka cya **Muhanga Bus Terminal** <br> - Iri hafi y’ikiraro cya **Kigali‑Butare Bridge** <br> - Hari hoteli n’ama‑café hafi y’ishuri, bityo biroroshye kubona aho kuruhukira no gufata amafunguro. |\n\n### Uko wamenya neza aho giherereye (Google Maps)\n\n1. **Fungura Google Maps** (ku rubuga cyangwa kuri telefoni).  \n2. **Shaka:** “Lycee de Muhanga, Muhanga, Rwanda”.  \n3. Uzabona ikimenyetso cy’ishuri hamwe n’inzira zose zishoboka (imodoka, moto, amagare).  \n\n### Amakuru y’inyongera\n\n- **Ishuri ryigisha**: Iri mu mashuri yisumbuye (Secondary) atanga amasomo y’icyiciro cya “Ordinary Level” (O‑Level) na “Advanced Level” (A‑Level).  \n- **Ibyiza by’aho iherereye**: Iri mu gace gafite umutekano, hafi y’ibikorwa remezo (ibitaro, amasoko, amahoteri) kandi ikorana n’ibigo by’amashuri makuru (universities) biri hafi.  \n\nNiba ushaka kugera ku ishuri ukoresheje **taxi** cyangwa **bus**, waganira n’abashoferi ku mihanda ya **RN1** – bahita bakwereka inzira yoroheje.  \n\n---\n\n**Inama:** Niba ufite gahunda yo gusura cyangwa kwiyandikisha, byaba byiza guhamagara mbere (ku murongo wa +250 788 123 456) kugira ngo umenye igihe cy’akazi, ibyangombwa bisabwa, n’uko wakwitegura neza. \n\nNiba ufite ibindi bibazo (nko kumenya ibiciro by’ishuri, gahunda y’amasomo, cyangwa uburyo bwo kubona ubufasha bw’amafaranga), ndahari ngo ngufashe!"
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "createdAt": "2026-03-26T16:23:50.660Z",
+      "updatedAt": "2026-03-26T16:23:50.660Z"
+    },
+    {
+      "id": "1774542284889",
+      "userId": "1774538615704",
+      "title": "amakuru sha",
+      "messages": [
+        {
+          "role": "user",
+          "content": "amakuru sha"
+        },
+        {
+          "role": "assistant",
+          "content": "Amakuru yawe? Ndizera ko uri kumva kimwe neza. Niba hari ikintu runaka ushaka kuganiraho—ibitekerezo, ubushakashatsi, cyangwa se inkuru y’akazi—mbwira, nditeguye kugufasha!"
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "provider": "GPT-OSS Cloud (Real)",
+      "createdAt": "2026-03-26T16:24:44.889Z",
+      "updatedAt": "2026-03-26T16:24:44.889Z"
+    },
+    {
+      "id": "1774542284920",
+      "userId": "1774538615704",
+      "title": "amakuru sha...",
+      "messages": [
+        {
+          "role": "user",
+          "content": "amakuru sha"
+        },
+        {
+          "role": "assistant",
+          "content": "Amakuru yawe? Ndizera ko uri kumva kimwe neza. Niba hari ikintu runaka ushaka kuganiraho—ibitekerezo, ubushakashatsi, cyangwa se inkuru y’akazi—mbwira, nditeguye kugufasha!"
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "createdAt": "2026-03-26T16:24:44.920Z",
+      "updatedAt": "2026-03-26T16:24:44.920Z"
+    },
+    {
+      "id": "1774547508895",
+      "userId": "1774538615704",
+      "title": "hi",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        },
+        {
+          "role": "assistant",
+          "content": "Hi there! How can I help you today?\n"
+        }
+      ],
+      "model": "gemma3:270m",
+      "createdAt": "2026-03-26T17:51:48.895Z",
+      "updatedAt": "2026-03-26T17:51:48.895Z"
+    },
+    {
+      "id": "1774547882225",
+      "userId": "1774538615704",
+      "title": "hi",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        },
+        {
+          "role": "assistant",
+          "content": "Hey there! 👋 How’s your day going? Let me know if there’s anything you’d like to chat about or any question I can help with."
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "provider": "GPT-OSS Cloud (Real)",
+      "createdAt": "2026-03-26T17:58:02.225Z",
+      "updatedAt": "2026-03-26T17:58:02.225Z"
+    },
+    {
+      "id": "1774547895198",
+      "userId": "1774538615704",
+      "title": "umeze gute c",
+      "messages": [
+        {
+          "role": "user",
+          "content": "umeze gute c"
+        },
+        {
+          "role": "assistant",
+          "content": "Hey there! 👋 I’m not quite sure what you’re asking for with “umeze gute c.” Could you give me a bit more detail? Are you looking for:\n\n- A translation of that phrase,  \n- Help with the C programming language, or  \n- Something else entirely?\n\nJust let me know, and I’ll dive right in!"
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "provider": "GPT-OSS Cloud (Real)",
+      "createdAt": "2026-03-26T17:58:15.198Z",
+      "updatedAt": "2026-03-26T17:58:15.198Z"
+    },
+    {
+      "id": "1774547912979",
+      "userId": "1774538615704",
+      "title": "umeze gute se?",
+      "messages": [
+        {
+          "role": "user",
+          "content": "umeze gute se?"
+        },
+        {
+          "role": "assistant",
+          "content": "Ndahagaze neza, urakoze! Wowe se umeze gute?"
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "createdAt": "2026-03-26T17:58:32.979Z",
+      "updatedAt": "2026-03-26T17:58:32.979Z"
+    },
+    {
+      "id": "1774591812182",
+      "userId": "1774538615704",
+      "title": "good morning",
+      "messages": [
+        {
+          "role": "user",
+          "content": "good morning"
+        },
+        {
+          "role": "assistant",
+          "content": " Good morning! How can I help you today?"
+        }
+      ],
+      "model": "mistral",
+      "createdAt": "2026-03-27T06:10:12.183Z",
+      "updatedAt": "2026-03-27T06:10:12.188Z"
+    },
+    {
+      "id": "1774592484794",
+      "userId": "1774538615704",
+      "title": "waramutse neza",
+      "messages": [
+        {
+          "role": "user",
+          "content": "waramutse neza"
+        },
+        {
+          "role": "assistant",
+          "content": "Waramutse! Neza, nawe se? Nkwifurije umunsi mwiza. Mbwira ibyo wifuza kuganiraho cyangwa icyo nakugufashamo."
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "provider": "GPT-OSS Cloud (Real)",
+      "createdAt": "2026-03-27T06:21:24.794Z",
+      "updatedAt": "2026-03-27T06:21:24.794Z"
+    },
+    {
+      "id": "1774596033197",
+      "userId": "1774538615704",
+      "title": "hi",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        },
+        {
+          "role": "assistant",
+          "content": "Hello! How can I assist you today?"
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "provider": "GPT-OSS Cloud (Real)",
+      "createdAt": "2026-03-27T07:20:33.197Z",
+      "updatedAt": "2026-03-27T07:20:33.197Z"
+    },
+    {
+      "id": "1774596809016",
+      "userId": "1774538615704",
+      "title": "do you know facebook",
+      "messages": [
+        {
+          "role": "user",
+          "content": "do you know facebook"
+        },
+        {
+          "role": "assistant",
+          "content": "Absolutely—I’m familiar with Facebook. It’s a social‑networking platform that was launched in February 2004 by Mark Zuckerberg and his Harvard roommates. Over the years it has grown into one of the world’s largest online communities, with billions of active users and a suite of products that go far beyond just a personal “profile” page.\n\n### Quick Overview\n\n| Aspect | Details |\n|--------|----------|\n| **Founding** | February 2004, Harvard University. Originally called “TheFacebook.” |\n| **Parent Company** | Meta Platforms, Inc. (rebranded from Facebook, Inc. in 2021). |\n| **Core Services** | • **News Feed** – personalized stream of posts from friends, pages, and groups.<br>• **Timeline/Profile** – personal page where you can share posts, photos, life events, etc.<br>• **Messenger** – standalone chat app (both web and mobile).<br>• **Groups** – community spaces for shared interests.<br>• **Pages** – public profiles for businesses, creators, public figures.<br>• **Marketplace** – peer‑to‑peer buying and selling.<br>• **Events** – create, promote, and RSVP to gatherings.<br>• **Reels/Stories** – short‑form video and photo content. |\n| **Key Features** | • **Reactions** (like, love, wow, etc.)<br>• **Live Video** (broadcast in real time)<br>• **Stories** (24‑hour disappearing content)<br>• **Watch** (video library & original shows)<br>• **Ads Manager** for businesses to run targeted ads |\n| **User Demographics** | Global reach, with especially strong penetration in North America, Europe, and parts of Asia. Age distribution skews younger than some other platforms, but there’s a broad mix from teens to older adults. |\n| **Business Model** | Primarily advertising‑driven. Advertisers can target users based on a wealth of data (demographics, interests, behaviors, location, etc.). Meta also generates revenue from payments (e.g., Marketplace fees, virtual goods). |\n| **Privacy & Controversies** | • Cambridge Analytica scandal (2018) highlighted data‑sharing concerns.<br>• Ongoing debates about misinformation, content moderation, and algorithmic transparency.<br>• Recent emphasis on “privacy‑by‑design” and new tools (e.g., “Off‑Facebook Activity,” “Data Policy” updates). |\n| **Recent Developments** | • Integration with **Meta’s broader ecosystem** (Instagram, WhatsApp, Oculus).<br>• Push toward **augmented reality (AR)** and **virtual reality (VR)** experiences via the **Meta Quest** platform.<br>• Expansion of **Reels** and short‑form video to compete with TikTok.<br>• Ongoing rollout of **AI‑powered tools** for content creation, translation, and moderation. |\n\n---\n\n## What You Might Want to Know Next\n\n- **How to set up a secure profile** (privacy settings, two‑factor authentication, data download).\n- **Tips for businesses**: creating effective ads, using Facebook Business Suite, measuring performance with Insights.\n- **Understanding the algorithm**: what influences what appears in the News Feed.\n- **Managing groups or pages**: best practices for community building and moderation.\n- **Latest policy changes**: how Meta’s new data‑policy updates affect you.\n- **Alternatives & complementary platforms** (Instagram, Threads, WhatsApp, etc.) and when to use each.\n\nLet me know which aspect you’re most interested in, and I can dive deeper into that!"
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "createdAt": "2026-03-27T07:33:29.016Z",
+      "updatedAt": "2026-03-27T07:33:29.016Z"
+    },
+    {
+      "id": "1774596953109",
+      "userId": "1774538615704",
+      "title": "give me the url...",
+      "messages": [
+        {
+          "role": "user",
+          "content": "give me the url of facebook"
+        },
+        {
+          "role": "assistant",
+          "content": "Here’s the main URL for Facebook:\n\n**https://www.facebook.com/**"
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "provider": "GPT-OSS Cloud (Real)",
+      "createdAt": "2026-03-27T07:35:53.110Z",
+      "updatedAt": "2026-03-27T07:35:53.110Z"
+    },
+    {
+      "id": "1774597206681",
+      "userId": "1774538615704",
+      "title": "analyse that image",
+      "messages": [
+        {
+          "role": "user",
+          "content": "analyse that image"
+        },
+        {
+          "role": "assistant",
+          "content": "I’m happy to help analyze an image, but I don’t see one attached. Could you please upload the image you’d like me to examine? Once I have it, I can provide a detailed analysis."
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "provider": "GPT-OSS Cloud (Real)",
+      "createdAt": "2026-03-27T07:40:06.681Z",
+      "updatedAt": "2026-03-27T07:40:06.681Z"
+    },
+    {
+      "id": "1774598273713",
+      "userId": "1774538615704",
+      "title": "Create an image of...",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create an image of girl"
+        },
+        {
+          "role": "assistant",
+          "content": "I don’t have the capability to generate or create images. However, if you’re looking for guidance on creating an image of a girl (e.g., using design tools, AI image generators like DALL·E, MidJourney, or Canva), I can help explain how to do that! Let me know what you’d like to achieve, and I’ll provide step-by-step instructions or recommendations."
+        }
+      ],
+      "model": "qwen3-vl:235b-cloud",
+      "provider": "GPT-OSS Cloud (Real)",
+      "createdAt": "2026-03-27T07:57:53.713Z",
+      "updatedAt": "2026-03-27T07:57:53.713Z"
+    },
+    {
+      "id": "1774599634446",
+      "userId": "1774538615704",
+      "title": "hi",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        },
+        {
+          "role": "assistant",
+          "content": "Hello! 😊 How can I help you today? Whether you have a question, need advice, or just want to chat—I'm here for it! 🚀\n\n(Or if you're testing me, I'm ready for that too. 😉)"
+        }
+      ],
+      "model": "ministral-3:14b-cloud",
+      "provider": "GPT-OSS Cloud (Real)",
+      "createdAt": "2026-03-27T08:20:34.446Z",
+      "updatedAt": "2026-03-27T08:20:34.447Z"
+    },
+    {
+      "id": "1774600089841",
+      "userId": "1774538615704",
+      "title": "Summarize the latest AI...",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Summarize the latest AI news this week."
+        },
+        {
+          "role": "assistant",
+          "content": "**Quick heads‑up:**  \nI’m a language model whose training data go up through 2024, and I don’t have real‑time browsing capability. That means I can’t pull the actual headlines from the week of 27 March 2026. \n\nIf you can share a few URLs, headlines, or bullet points you’ve seen, I’ll be happy to turn them into a concise summary and point out the wider implications.  \n\nOtherwise, I can give you a *plausible* “what‑might‑be‑happening” snapshot based on the major trends that have been shaping the AI landscape up to 2024 (e.g., the rollout of GPT‑5‑style models, new EU AI regulations, China’s push for national‑level AI super‑computers, etc.). Let me know which approach works best for you!"
+        }
+      ],
+      "model": "gpt-oss:120b-cloud",
+      "provider": "GPT-OSS Cloud (Real)",
+      "createdAt": "2026-03-27T08:28:09.841Z",
+      "updatedAt": "2026-03-27T08:28:09.841Z"
+    },
+    {
+      "id": "1774611584226",
+      "userId": "1774538615704",
+      "title": "what is html",
+      "messages": [
+        {
+          "role": "user",
+          "content": "what is html"
+        },
+        {
+          "role": "assistant",
+          "content": "🔍 **Search Results for \"what is html\"**\n\nHypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance. HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as and directly introduce content into the page.\n\n**Sources:** DuckDuckGo Instant, DuckDuckGo Web, Wikipedia\n\n**Top Results:**\n1. [HTML](https://en.wikipedia.org/wiki/HTML) - Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance. HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as and directly introduce content into the page.\n2. [HTML Category](https://duckduckgo.com/c/HTML) - HTML Category\n3. [Breadcrumb navigation](https://duckduckgo.com/Breadcrumb_navigation) - Breadcrumb navigation - A breadcrumb or breadcrumb trail is a graphical control element used as a navigational aid in user interfaces and on web pages. It allows users to keep track and maintain awareness of their locations within programs, documents, or websites.\n4. [Cellpadding](https://duckduckgo.com/Cellpadding) - Cellpadding - Cellpadding is a term used in the computer language HTML. When used in conjunction with the table element, it specifies the amount of space between the border of a table cell and its contents.\n5. [Dynamic web page](https://duckduckgo.com/Dynamic_web_page) - Dynamic web page - A dynamic web page is a web page constructed at runtime, as opposed to a static web page, delivered as it is stored. A server-side dynamic web page is a web page whose construction is controlled by an application server processing server-side scripts."
+        }
+      ],
+      "model": "web-search",
+      "searchResults": {
+        "query": "what is html",
+        "summary": "Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance. HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as and directly introduce content into the page.",
+        "sources": [
+          "DuckDuckGo Instant",
+          "DuckDuckGo Web",
+          "Wikipedia"
+        ],
+        "results": [
+          {
+            "title": "HTML",
+            "snippet": "Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance. HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as and directly introduce content into the page.",
+            "url": "https://en.wikipedia.org/wiki/HTML",
+            "source": "DuckDuckGo"
+          },
+          {
+            "title": "HTML Category",
+            "snippet": "HTML Category",
+            "url": "https://duckduckgo.com/c/HTML",
+            "source": "DuckDuckGo"
+          },
+          {
+            "title": "Breadcrumb navigation",
+            "snippet": "Breadcrumb navigation - A breadcrumb or breadcrumb trail is a graphical control element used as a navigational aid in user interfaces and on web pages. It allows users to keep track and maintain awareness of their locations within programs, documents, or websites.",
+            "url": "https://duckduckgo.com/Breadcrumb_navigation",
+            "source": "DuckDuckGo"
+          },
+          {
+            "title": "Cellpadding",
+            "snippet": "Cellpadding - Cellpadding is a term used in the computer language HTML. When used in conjunction with the table element, it specifies the amount of space between the border of a table cell and its contents.",
+            "url": "https://duckduckgo.com/Cellpadding",
+            "source": "DuckDuckGo"
+          },
+          {
+            "title": "Dynamic web page",
+            "snippet": "Dynamic web page - A dynamic web page is a web page constructed at runtime, as opposed to a static web page, delivered as it is stored. A server-side dynamic web page is a web page whose construction is controlled by an application server processing server-side scripts.",
+            "url": "https://duckduckgo.com/Dynamic_web_page",
+            "source": "DuckDuckGo"
+          }
+        ],
+        "timestamp": "2026-03-27T11:39:44.220Z"
+      },
+      "createdAt": "2026-03-27T11:39:44.227Z",
+      "updatedAt": "2026-03-27T11:39:44.227Z"
+    },
+    {
+      "id": "1774616519181",
+      "userId": "1774538615704",
+      "title": "search alpha_mike123 on instagram",
+      "messages": [
+        {
+          "role": "user",
+          "content": "search alpha_mike123 on instagram"
+        },
+        {
+          "role": "assistant",
+          "content": "🔍 **Search Results for \"search alpha_mike123 on instagram\"**\n\nI could not reach live web providers right now for \"search alpha_mike123 on instagram\". Please try again shortly, or rephrase your search.\n\n**Sources:** Fallback"
+        }
+      ],
+      "model": "web-search",
+      "searchResults": {
+        "query": "search alpha_mike123 on instagram",
+        "summary": "I could not reach live web providers right now for \"search alpha_mike123 on instagram\". Please try again shortly, or rephrase your search.",
+        "sources": [
+          "Fallback"
+        ],
+        "results": [],
+        "timestamp": "2026-03-27T13:01:59.180Z"
+      },
+      "createdAt": "2026-03-27T13:01:59.182Z",
+      "updatedAt": "2026-03-27T13:01:59.182Z"
+    },
+    {
+      "id": "1774621288519",
+      "userId": "1774538615704",
+      "title": "who is unezase",
+      "messages": [
+        {
+          "role": "user",
+          "content": "who is unezase"
+        },
+        {
+          "role": "assistant",
+          "content": "🔍 **Search Results for \"who is unezase\"**\n\nI could not reach live web providers right now for \"who is unezase\". Please try again shortly, or rephrase your search.\n\n**Sources:** Fallback"
+        }
+      ],
+      "model": "web-search",
+      "searchResults": {
+        "query": "who is unezase",
+        "summary": "I could not reach live web providers right now for \"who is unezase\". Please try again shortly, or rephrase your search.",
+        "sources": [
+          "Fallback"
+        ],
+        "results": [],
+        "timestamp": "2026-03-27T14:21:28.515Z"
+      },
+      "createdAt": "2026-03-27T14:21:28.519Z",
+      "updatedAt": "2026-03-27T14:21:28.519Z"
+    },
+    {
+      "id": "1774621855856",
+      "userId": "1774538615704",
+      "title": "who is marc zucerberg",
+      "messages": [
+        {
+          "role": "user",
+          "content": "who is marc zucerberg"
+        },
+        {
+          "role": "assistant",
+          "content": "🔍 **Search Results for \"who is marc zucerberg\"**\n\nI could not reach live web providers right now for \"who is marc zucerberg\". Please try again shortly, or rephrase your search.\n\n**Sources:** Fallback"
+        }
+      ],
+      "model": "web-search",
+      "searchResults": {
+        "query": "who is marc zucerberg",
+        "summary": "I could not reach live web providers right now for \"who is marc zucerberg\". Please try again shortly, or rephrase your search.",
+        "sources": [
+          "Fallback"
+        ],
+        "results": [],
+        "timestamp": "2026-03-27T14:30:55.854Z"
+      },
+      "createdAt": "2026-03-27T14:30:55.857Z",
+      "updatedAt": "2026-03-27T14:30:55.857Z"
+    },
+    {
+      "id": "1774622377891",
+      "userId": "1774538615704",
+      "title": "who is me",
+      "messages": [
+        {
+          "role": "user",
+          "content": "who is me"
+        },
+        {
+          "role": "assistant",
+          "content": "🔍 **Search Results for \"who is me\"**\n\nMe? is the debut extended play by South Korean singer Park Ye-eun under her stage name \"Ha:tfelt\", released on July 31, 2014 by JYP Entertainment. The lead single, \"Ain't Nobody\", was used to promote the album. The album was included in Billboard's list of the 10 best K-pop albums of 2014.\n\n**Sources:** DuckDuckGo Instant, DuckDuckGo Web, Wikipedia\n\n**Top Results:**\n1. [Me?](https://en.wikipedia.org/wiki/Me%3F) - Me? is the debut extended play by South Korean singer Park Ye-eun under her stage name \"Ha:tfelt\", released on July 31, 2014 by JYP Entertainment. The lead single, \"Ain't Nobody\", was used to promote the album. The album was included in Billboard's list of the 10 best K-pop albums of 2014.\n2. [JYP Entertainment EPs](https://duckduckgo.com/c/JYP_Entertainment_EPs) - JYP Entertainment EPs"
+        }
+      ],
+      "model": "web-search",
+      "searchResults": {
+        "query": "who is me",
+        "summary": "Me? is the debut extended play by South Korean singer Park Ye-eun under her stage name \"Ha:tfelt\", released on July 31, 2014 by JYP Entertainment. The lead single, \"Ain't Nobody\", was used to promote the album. The album was included in Billboard's list of the 10 best K-pop albums of 2014.",
+        "sources": [
+          "DuckDuckGo Instant",
+          "DuckDuckGo Web",
+          "Wikipedia"
+        ],
+        "results": [
+          {
+            "title": "Me?",
+            "snippet": "Me? is the debut extended play by South Korean singer Park Ye-eun under her stage name \"Ha:tfelt\", released on July 31, 2014 by JYP Entertainment. The lead single, \"Ain't Nobody\", was used to promote the album. The album was included in Billboard's list of the 10 best K-pop albums of 2014.",
+            "url": "https://en.wikipedia.org/wiki/Me%3F",
+            "source": "DuckDuckGo"
+          },
+          {
+            "title": "JYP Entertainment EPs",
+            "snippet": "JYP Entertainment EPs",
+            "url": "https://duckduckgo.com/c/JYP_Entertainment_EPs",
+            "source": "DuckDuckGo"
+          }
+        ],
+        "timestamp": "2026-03-27T14:39:37.887Z"
+      },
+      "createdAt": "2026-03-27T14:39:37.892Z",
+      "updatedAt": "2026-03-27T14:39:37.892Z"
+    },
+    {
+      "id": "1774858007835",
+      "userId": "1774538615704",
+      "title": "where is it",
+      "messages": [
+        {
+          "role": "user",
+          "content": "where is it"
+        },
+        {
+          "role": "assistant",
+          "content": "🔍 **Search Results for \"where is it\"**\n\n.it is the national top-level domain assigned to Italy. Registration is open to organisations and individuals of legal age who are citizens or residents of/headquartered in the countries of the European Economic Area, the Vatican State, the Republic of San Marino and the Swiss Confederation. Since 11 July 2012,.it has also supported internationalised domain names.\n\n**Sources:** DuckDuckGo Instant, DuckDuckGo Web, Wikipedia\n\n**Top Results:**\n1. [.it](https://en.wikipedia.org/wiki/.it) - .it is the national top-level domain assigned to Italy. Registration is open to organisations and individuals of legal age who are citizens or residents of/headquartered in the countries of the European Economic Area, the Vatican State, the Republic of San Marino and the Swiss Confederation. Since 11 July 2012,.it has also supported internationalised domain names.\n2. [Internet in Italy](https://duckduckgo.com/c/Internet_in_Italy) - Internet in Italy\n3. [Council of European National Top Level Domain Registries members](https://duckduckgo.com/c/Council_of_European_National_Top_Level_Domain_Registries_members) - Council of European National Top Level Domain Registries members\n4. [Country code top-level domains](https://duckduckgo.com/c/Country_code_top-level_domains) - Country code top-level domains"
+        }
+      ],
+      "model": "web-search",
+      "searchResults": {
+        "query": "where is it",
+        "summary": ".it is the national top-level domain assigned to Italy. Registration is open to organisations and individuals of legal age who are citizens or residents of/headquartered in the countries of the European Economic Area, the Vatican State, the Republic of San Marino and the Swiss Confederation. Since 11 July 2012,.it has also supported internationalised domain names.",
+        "sources": [
+          "DuckDuckGo Instant",
+          "DuckDuckGo Web",
+          "Wikipedia"
+        ],
+        "results": [
+          {
+            "title": ".it",
+            "snippet": ".it is the national top-level domain assigned to Italy. Registration is open to organisations and individuals of legal age who are citizens or residents of/headquartered in the countries of the European Economic Area, the Vatican State, the Republic of San Marino and the Swiss Confederation. Since 11 July 2012,.it has also supported internationalised domain names.",
+            "url": "https://en.wikipedia.org/wiki/.it",
+            "source": "DuckDuckGo"
+          },
+          {
+            "title": "Internet in Italy",
+            "snippet": "Internet in Italy",
+            "url": "https://duckduckgo.com/c/Internet_in_Italy",
+            "source": "DuckDuckGo"
+          },
+          {
+            "title": "Council of European National Top Level Domain Registries members",
+            "snippet": "Council of European National Top Level Domain Registries members",
+            "url": "https://duckduckgo.com/c/Council_of_European_National_Top_Level_Domain_Registries_members",
+            "source": "DuckDuckGo"
+          },
+          {
+            "title": "Country code top-level domains",
+            "snippet": "Country code top-level domains",
+            "url": "https://duckduckgo.com/c/Country_code_top-level_domains",
+            "source": "DuckDuckGo"
+          }
+        ],
+        "timestamp": "2026-03-30T08:06:47.821Z"
+      },
+      "createdAt": "2026-03-30T08:06:47.835Z",
+      "updatedAt": "2026-03-30T08:06:47.835Z"
+    },
+    {
+      "id": "1774864338690",
+      "userId": "1774538615704",
+      "title": "Search for: facebook",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Search for: facebook"
+        },
+        {
+          "role": "assistant",
+          "content": "🔍 **Search Results for \"Search for: facebook\"**\n\nI could not reach live web providers right now for \"Search for: facebook\". Please try again shortly, or rephrase your search.\n\n**Sources:** Fallback"
+        }
+      ],
+      "model": "web-search",
+      "searchResults": {
+        "query": "Search for: facebook",
+        "summary": "I could not reach live web providers right now for \"Search for: facebook\". Please try again shortly, or rephrase your search.",
+        "sources": [
+          "Fallback"
+        ],
+        "results": [],
+        "timestamp": "2026-03-30T09:52:18.673Z"
+      },
+      "createdAt": "2026-03-30T09:52:18.692Z",
+      "updatedAt": "2026-03-30T09:52:18.692Z"
+    },
+    {
+      "id": "1774864373548",
+      "userId": "1774538615704",
+      "title": "Search for: facebook",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Search for: facebook"
+        },
+        {
+          "role": "assistant",
+          "content": "🔍 **Search Results for \"Search for: facebook\"**\n\nI could not reach live web providers right now for \"Search for: facebook\". Please try again shortly, or rephrase your search.\n\n**Sources:** Fallback"
+        }
+      ],
+      "model": "web-search",
+      "searchResults": {
+        "query": "Search for: facebook",
+        "summary": "I could not reach live web providers right now for \"Search for: facebook\". Please try again shortly, or rephrase your search.",
+        "sources": [
+          "Fallback"
+        ],
+        "results": [],
+        "timestamp": "2026-03-30T09:52:53.528Z"
+      },
+      "createdAt": "2026-03-30T09:52:53.549Z",
+      "updatedAt": "2026-03-30T09:52:53.549Z"
+    },
+    {
+      "id": "1774873345938",
+      "userId": "1774538615704",
+      "title": "Search forho: how to...",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Search forho: how to login on facebook"
+        },
+        {
+          "role": "assistant",
+          "content": "🔍 **Search Results for \"Search forho: how to login on facebook\"**\n\nI could not reach live web providers right now for \"Search forho: how to login on facebook\". Please try again shortly, or rephrase your search.\n\n**Sources:** Fallback"
+        }
+      ],
+      "model": "web-search",
+      "searchResults": {
+        "query": "Search forho: how to login on facebook",
+        "summary": "I could not reach live web providers right now for \"Search forho: how to login on facebook\". Please try again shortly, or rephrase your search.",
+        "sources": [
+          "Fallback"
+        ],
+        "results": [],
+        "timestamp": "2026-03-30T12:22:25.932Z"
+      },
+      "createdAt": "2026-03-30T12:22:25.938Z",
+      "updatedAt": "2026-03-30T12:22:25.938Z"
+    },
+    {
+      "id": "1774873421716",
+      "userId": "1774538615704",
+      "title": "Search for: how to...",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Search for: how to login on faceboook]"
+        },
+        {
+          "role": "assistant",
+          "content": "🔍 **Search Results for \"Search for: how to login on faceboook]\"**\n\nI could not reach live web providers right now for \"Search for: how to login on faceboook]\". Please try again shortly, or rephrase your search.\n\n**Sources:** Fallback"
+        }
+      ],
+      "model": "web-search",
+      "searchResults": {
+        "query": "Search for: how to login on faceboook]",
+        "summary": "I could not reach live web providers right now for \"Search for: how to login on faceboook]\". Please try again shortly, or rephrase your search.",
+        "sources": [
+          "Fallback"
+        ],
+        "results": [],
+        "timestamp": "2026-03-30T12:23:41.711Z"
+      },
+      "createdAt": "2026-03-30T12:23:41.717Z",
+      "updatedAt": "2026-03-30T12:23:41.717Z"
+    }
+  ]
+}

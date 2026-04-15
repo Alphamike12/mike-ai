@@ -1,0 +1,5 @@
+{
+  "model": "kimi-k2.5:cloud",
+  "prompt": "bonjour comment allez-vous",
+  "stream": false
+}

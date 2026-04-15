@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1774538615704",
+      "email": "alphamike493@gmail.com",
+      "username": "mikealpha",
+      "firstName": "mike",
+      "lastName": "alpha",
+      "password": "$2b$10$.mCuQsdDlmjtP2WAIXtR0eGRAx7.FkOw7cApmxeRDd5JmMLW0dxuC",
+      "createdAt": "2026-03-26T15:23:35.708Z",
+      "isActive": true,
+      "subscription": "free",
+      "profile": {
+        "avatar": null,
+        "bio": "",
+        "preferences": {
+          "theme": "light",
+          "language": "english",
+          "defaultModel": "gemma3:270m"
+        }
+      }
+    },
+    {
+      "id": "1774547643612",
+      "email": "test1774554841@example.com",
+      "username": "tester1774554841",
+      "firstName": "Test",
+      "lastName": "User",
+      "password": "$2b$10$KU/cvgMfAtL1vvojXoukBecM3FaSiVpDVaXmp/dhSWWKEBcVhrg9K",
+      "createdAt": "2026-03-26T17:54:03.613Z",
+      "isActive": true,
+      "subscription": "free",
+      "profile": {
+        "avatar": null,
+        "bio": "",
+        "preferences": {
+          "theme": "light",
+          "language": "english",
+          "defaultModel": "gemma3:270m"
+        }
+      }
+    },
+    {
+      "id": "1774600401836",
+      "email": "jeanpaul@gmail.com",
+      "username": "jeanpaul",
+      "firstName": "jean",
+      "lastName": "paul",
+      "password": "$2b$10$2zKmorI4fHqiWHEQKsrqQOdCu.LYdoDSbxp72wwdnSLMe5keyZ2PW",
+      "createdAt": "2026-03-27T08:33:21.837Z",
+      "isActive": true,
+      "subscription": "free",
+      "profile": {
+        "avatar": null,
+        "bio": "",
+        "preferences": {
+          "theme": "light",
+          "language": "english",
+          "defaultModel": "gemma3:270m"
+        }
+      }
+    }
+  ]
+}

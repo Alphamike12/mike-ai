@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike AI - Professional AI Assistant</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%23667eea'/><stop offset='100%25' style='stop-color:%23764ba2'/></linearGradient></defs><circle cx='50' cy='50' r='45' fill='url(%23grad)'/><text x='50' y='65' font-family='Arial' font-size='40' text-anchor='middle' fill='white'>🌸</text></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Professional Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-toggle" id="sidebar-toggle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </div>
+                <div class="app-logo">
+                    <div class="logo-icon">🌸</div>
+                    <div class="logo-text">
+                        <h2>Mike AI</h2>
+                        <span>Professional Assistant</span>
+                    </div>
+                </div>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <h4>Chat Tools</h4>
+                    
+                    <div class="tool-item active" id="chat-tool">
+                        <div class="tool-icon">💬</div>
+                        <div class="tool-info">
+                            <h5>Smart Chat</h5>
+                            <span>AI conversation</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-item" id="upload-tool">
+                        <div class="tool-icon">📁</div>
+                        <div class="tool-info">
+                            <h5>File Upload</h5>
+                            <span>Images & documents</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-item" id="create-image-tool">
+                        <div class="tool-icon">🎨</div>
+                        <div class="tool-info">
+                            <h5>Create Image</h5>
+                            <span>AI image generation</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-item" id="thinking-tool">
+                        <div class="tool-icon">🧠</div>
+                        <div class="tool-info">
+                            <h5>Deep Thinking</h5>
+                            <span>Advanced analysis</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-item" id="deepsearch-tool">
+                        <div class="tool-icon">🔍</div>
+                        <div class="tool-info">
+                            <h5>Deep Search</h5>
+                            <span>Web search & research</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nav-section">
+                    <h4>Account</h4>
+                    
+                    <div class="tool-item" id="profile-tool">
+                        <div class="tool-icon">👤</div>
+                        <div class="tool-info">
+                            <h5>Profile</h5>
+                            <span>User information & stats</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-item" id="dashboard-tool">
+                        <div class="tool-icon">📊</div>
+                        <div class="tool-info">
+                            <h5>Dashboard</h5>
+                            <span>Statistics & history</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-item" id="upgrade-tool">
+                        <div class="tool-icon">💎</div>
+                        <div class="tool-info">
+                            <h5>Upgrade Plan</h5>
+                            <span>Premium features</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-item" id="settings-tool">
+                        <div class="tool-icon">⚙️</div>
+                        <div class="tool-info">
+                            <h5>Settings</h5>
+                            <span>Preferences</span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="user-status" id="user-status">
+                    <div class="user-avatar" id="user-avatar">G</div>
+                    <div class="user-info">
+                        <span id="user-name">Guest User</span>
+                        <span id="user-role">Free Plan</span>
+                    </div>
+                    <button class="login-btn" id="login-btn">Login</button>
+                    <button class="logout-btn" id="logout-btn" style="display: none;">Logout</button>
+                </div>
+            </div>
+        </aside>
+        
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Professional Header -->
+            <header class="app-header">
+                <div class="header-left">
+                    <h1 class="page-title">Mike AI Professional</h1>
+                    <div class="connection-status" id="connection-status">
+                        <span class="status-dot online"></span>
+                        <span>Connected</span>
+                    </div>
+                </div>
+                
+                <div class="header-center">
+                    <div class="model-selector">
+                        <label for="model-select">AI Model:</label>
+                        <select id="model-select" class="model-dropdown">
+                            <option value="gemma3:270m">🚀 Gemma3 270M (Ultra Fast)</option>
+                            <option value="qwen:0.5b">⚡ Qwen 0.5B (Ultra Fast)</option>
+                            <option value="deepseek:1.3b">🤖 DeepSeek 1.3B (Fast)</option>
+                            <option value="llama3.2:1b">🔥 Llama3.2 1B (Fast)</option>
+                            <option value="gemma:2b">💎 Gemma 2B (Fast)</option>
+                            <option value="deepseek-coder:6.7b">💻 DeepSeek Coder 6.7B (Fast)</option>
+                            <option value="mistral">🌟 Mistral (Medium)</option>
+                            <option value="llama2">🎯 Llama2 (Medium)</option>
+                            <option value="deepseek:7b">🧠 DeepSeek 7B (Medium)</option>
+                            <option value="llama3.2:3b">🧪 Llama3.2 3B (Medium)</option>
+                            <option value="deepseek-coder:33b">👨‍💻 DeepSeek Coder 33B (Medium)</option>
+                            <option value="kimi-k2.5:cloud">☁️ Kimi K2.5 Cloud (Smart)</option>
+                            <option value="ministral-3:14b-cloud">🧠 Ministral-3 14B Cloud (Advanced)</option>
+                            <option value="gpt-oss:120b-cloud">🌟 GPT-OSS 120B Cloud (Ultra)</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="header-right">
+                    <button class="header-btn" id="memory-btn">
+                        <span>🧠</span>
+                        <span>Memory</span>
+                    </button>
+                    <button class="header-btn" id="clear-btn">
+                        <span>🗑️</span>
+                        <span>Clear</span>
+                    </button>
+                    <button class="header-btn" id="help-btn">
+                        <span>❓</span>
+                        <span>Help</span>
+                    </button>
+                </div>
+            </header>
+            
+            <!-- Chat Container -->
+            <div class="chat-container">
+                <div class="chat-messages" id="chat-messages">
+                    <div class="welcome-message">
+                        <div class="welcome-content">
+                            <div class="welcome-icon">🌸</div>
+                            <h2>Welcome to Mike AI Professional</h2>
+                            <p>Your advanced AI assistant with human-like memory, multi-language support, and professional features.</p>
+                            <div class="feature-highlights">
+                                <div class="feature-item">
+                                    <span>🧠</span>
+                                    <span>Human-like Memory</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span>🌍</span>
+                                    <span>20+ Languages</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span>☁️</span>
+                                    <span>Cloud AI Models</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span>🔍</span>
+                                    <span>Web Search</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Hidden file input -->
+                <input type="file" id="file-input" accept="image/*,.pdf,.txt,.doc,.docx" multiple style="display: none;">
+                
+                <!-- Typing Indicator -->
+                <div class="typing-indicator" id="typing-indicator">
+                    <div class="typing-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span>Mike AI is thinking...</span>
+                </div>
+            </div>
+            
+            <!-- Professional Input Area -->
+            <div class="input-container">
+                <div class="input-wrapper">
+                    <div class="input-actions">
+                        <button class="action-btn" id="search-button" title="Deep Search">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </button>
+                        <button class="action-btn" id="upload-button" title="Upload Files">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="17 8 12 3 7 8"></polyline>
+                                <line x1="12" y1="3" x2="12" y2="15"></line>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <textarea 
+                        id="message-input" 
+                        class="message-input"
+                        placeholder="Type your message here... (Press Enter to send, Shift+Enter for new line)" 
+                        rows="1"
+                        maxlength="2000"
+                    ></textarea>
+                    
+                    <button id="send-button" class="send-button">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9"></polygon>
+                        </svg>
+                        <span>Send</span>
+                    </button>
+                </div>
+                
+                <div class="input-footer">
+                    <div class="character-count">
+                        <span id="char-count">0</span> / 2000
+                    </div>
+                    <div class="input-status">
+                        <span id="input-status">Ready</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Memory Modal -->
+    <div class="modal" id="memory-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>🧠 Memory Context</h3>
+                <button class="modal-close" id="memory-modal-close">&times;</button>
+            </div>
+            <div class="modal-body" id="memory-content">
+                <p>Loading memory context...</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Help Modal -->
+    <div class="modal" id="help-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>❓ Help & Features</h3>
+                <button class="modal-close" id="help-modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="help-section">
+                    <h4>🚀 Getting Started</h4>
+                    <ul>
+                        <li>Type your message and press Enter to send</li>
+                        <li>Choose from 9 different AI models</li>
+                        <li>Upload files for AI analysis</li>
+                        <li>Use web search for real-time information</li>
+                    </ul>
+                </div>
+                
+                <div class="help-section">
+                    <h4>🧠 Advanced Features</h4>
+                    <ul>
+                        <li><strong>Human-like Memory:</strong> AI remembers conversations</li>
+                        <li><strong>Multi-language:</strong> Support for 20+ languages</li>
+                        <li><strong>Cloud Models:</strong> Access to powerful AI models</li>
+                        <li><strong>Web Search:</strong> Real-time information retrieval</li>
+                    </ul>
+                </div>
+                
+                <div class="help-section">
+                    <h4>🔐 Professional Features</h4>
+                    <ul>
+                        <li><strong>Account System:</strong> Create account for personalized experience</li>
+                        <li><strong>Conversation History:</strong> Save and review past conversations</li>
+                        <li><strong>User Dashboard:</strong> Track usage and statistics</li>
+                        <li><strong>Guest Mode:</strong> Use without registration</li>
+                    </ul>
+                </div>
+                
+                <div class="help-section">
+                    <h4>💡 Tips</h4>
+                    <ul>
+                        <li>Use Shift+Enter for new lines</li>
+                        <li>Drag & drop files directly into chat</li>
+                        <li>Switch models for different response styles</li>
+                        <li>Try multi-language conversations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Settings Modal -->
+    <div class="modal" id="settings-modal">
+        <div class="modal-content settings-modal">
+            <div class="modal-header">
+                <h3>⚙️ Settings</h3>
+                <button class="modal-close" id="settings-modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="settings-sections">
+                    <!-- Appearance Settings -->
+                    <div class="settings-section">
+                        <h4>🎨 Appearance</h4>
+                        <div class="setting-item">
+                            <label for="theme-select">Theme</label>
+                            <select id="theme-select" class="setting-select">
+                                <option value="light">☀️ Light</option>
+                                <option value="dark">🌙 Dark</option>
+                            </select>
+                        </div>
+                        <div class="setting-item">
+                            <label for="font-size-select">Font Size</label>
+                            <select id="font-size-select" class="setting-select">
+                                <option value="small">Small</option>
+                                <option value="medium" selected>Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Chat Settings -->
+                    <div class="settings-section">
+                        <h4>💬 Chat Behavior</h4>
+                        <div class="setting-item">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="enter-to-send">
+                                <span class="checkmark"></span>
+                                Press Enter to send message
+                            </label>
+                        </div>
+                        <div class="setting-item">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="auto-scroll">
+                                <span class="checkmark"></span>
+                                Auto-scroll to new messages
+                            </label>
+                        </div>
+                        <div class="setting-item">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="show-timestamps">
+                                <span class="checkmark"></span>
+                                Show message timestamps
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- AI Settings -->
+                    <div class="settings-section">
+                        <h4>🤖 AI Configuration</h4>
+                        <div class="setting-item">
+                            <label for="default-model-select">Default Model</label>
+                            <select id="default-model-select" class="setting-select">
+                                <option value="gemma3:270m">🚀 Gemma3 270M (Ultra Fast)</option>
+                                <option value="qwen:0.5b">⚡ Qwen 0.5B (Ultra Fast)</option>
+                                <option value="deepseek:1.3b">🤖 DeepSeek 1.3B (Fast)</option>
+                                <option value="llama3.2:1b">🔥 Llama3.2 1B (Fast)</option>
+                                <option value="gemma:2b">💎 Gemma 2B (Fast)</option>
+                                <option value="deepseek-coder:6.7b">💻 DeepSeek Coder 6.7B (Fast)</option>
+                                <option value="mistral">🌟 Mistral (Medium)</option>
+                                <option value="llama2">🎯 Llama2 (Medium)</option>
+                                <option value="deepseek:7b">🧠 DeepSeek 7B (Medium)</option>
+                                <option value="llama3.2:3b">🧪 Llama3.2 3B (Medium)</option>
+                                <option value="deepseek-coder:33b">👨‍💻 DeepSeek Coder 33B (Medium)</option>
+                                <option value="kimi-k2.5:cloud">☁️ Kimi K2.5 Cloud (Smart)</option>
+                                <option value="ministral-3:14b-cloud">🧠 Ministral-3 14B Cloud (Advanced)</option>
+                                <option value="gpt-oss:120b-cloud">🌟 GPT-OSS 120B Cloud (Ultra)</option>
+                            </select>
+                        </div>
+                        <div class="setting-item">
+                            <label for="max-tokens">Max Response Length</label>
+                            <div class="slider-container">
+                                <input type="range" id="max-tokens" min="100" max="4000" value="1000" step="100" class="setting-slider">
+                                <span class="slider-value">1000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Privacy Settings -->
+                    <div class="settings-section">
+                        <h4>🔒 Privacy</h4>
+                        <div class="setting-item">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="save-history">
+                                <span class="checkmark"></span>
+                                Save chat history locally
+                            </label>
+                        </div>
+                        <div class="setting-item">
+                            <button id="clear-cache-btn" class="danger-btn">🗑️ Clear All Data</button>
+                        </div>
+                        <div class="setting-item">
+                            <button id="reset-settings-btn" class="danger-btn">🔄 Reset Settings</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="save-settings-btn" class="primary-btn">💾 Save Settings</button>
+                <button id="cancel-settings-btn" class="secondary-btn">❌ Cancel</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
